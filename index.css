@@ -1,0 +1,255 @@
+/* Include fonts */
+@font-face {
+    font-family: 'LenskartSans';
+    src: url('https://static1.lenskart.com/media/desktop/img/Apr22/LenskartSans-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'LenskartSansHairline';
+    src: url('https://static1.lenskart.com/media/desktop/img/Apr22/LenskartSans-Hairline.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'LenskartSerifBook';
+    src: url('https://static1.lenskart.com/media/desktop/img/Apr22/Lenskart-Serif-Book.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'LenskartSerifUltraLight';
+    src: url('https://static1.lenskart.com/media/desktop/img/Apr22/Lenskart-Serif-UltraLight.otf') format('opentype');
+}
+
+body {
+    font-family: 'LenskartSans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.top-nav {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.top-nav-links a {
+    margin: 0 10px;
+    color: #333; 
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.main-nav {
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.contact-search {
+    display: flex;
+    align-items: center;
+}
+
+.contact {
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 160vh
+}
+
+.search-bar input {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #001f54;
+    color: white;
+    border: 1px solid #001f54;
+    border-radius: 0 4px 4px 0;
+}
+
+.category-nav {
+    background-color: #001f54;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.category-nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header, section, footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.header {
+    background-color: white;
+    color: white;
+}
+
+.vision, .focus, .for-everyone, .for-every-purpose {
+    padding: 40px 20px;
+}
+
+.vision {
+    background-color: mistyrose;
+    margin: 20px 0;
+}
+
+.focus {
+    background-color: #fff;
+}
+
+.for-everyone {
+    background-color: #f9f9f9;
+    /* display: flex; */
+}
+
+.for-every-purpose {
+    background-color: #f0f8ff;
+ 
+}
+
+.content-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    
+}
+
+.content-item {
+    flex: 1 1 30%;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: white;
+    padding: 20px;
+ 
+}
+
+.content-item img {
+    width: 50%;
+    height: auto;
+}
+
+.content-item h3 {
+    font-family: 'LenskartSerifBook', serif;
+}
+
+/* Slider */
+.slider {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+}
+
+.slide img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.controls .prev, .controls .next {
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 16px;
+    border: none;
+    border-radius: 50%;
+}
+
+.footer {
+    width: 100%;
+    height: 25vh;
+    display: block;
+    margin: 0 auto;
+    background-color: red;
+    background-image: url(./footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+.function{
+    float: right;
+   
+}
+
+.fashion{
+    float: left;
+
+}
+
+.first{
+    background-color:mistyrose ;
+    
+}
+
+.second{
+    background-color:mistyrose ;
+    position: relative;
+    justify-content: center;
+}
+
+
+.zero{
+    display:flex ;
+    flex-direction: column;
+
+}
+
+.main-purpose{
+    background-color:mistyrose;
+}
+
+ /* .fun{
+    text-align: left; */
+
+.fash{
+    justify-content: center;
+    
+} 
+.content-item second{
+    display: flex;
+    text-decoration: rebeccapurple;
+}
